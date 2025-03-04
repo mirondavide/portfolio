@@ -1,0 +1,192 @@
+body {
+    background-color: rgb(18, 18, 18);
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Aggiungi questa linea per centrare anche verticalmente */
+    text-align: center;
+    height: 100vh;
+}
+
+
+
+.principale{
+    padding-top: 32px  0px 24px;
+    height: 100vh;
+    width: 300px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo_princ{
+    height: 40px;
+    padding-top: 20px;    
+}
+    
+p{
+    color: white;
+    padding-top: 25px;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 13px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+h1{
+    margin-top: 10px;
+    color: white;
+    font-weight: 700px;
+    font-size: 43px;
+}
+.avanti{
+    display: inline-block;
+    width: 100%;
+    background-color: #1ED760;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 40px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.avanti:hover{
+    cursor: pointer;
+}
+
+input{
+    width: 100%;
+    border-width: 2px;
+    height: 50px;
+    border-color: rgba(188, 188, 188, 0.523);
+    border-radius: 5px;
+    border-style: solid;
+    background-color: transparent;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    color: white;
+    
+}
+
+
+input::placeholder{
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(159, 159, 159);
+}
+
+#email:focus {
+    border-color: #4CAF50; 
+  }
+
+.linea_con_testo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.linea_con_testo::before,
+.linea_con_testo::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid rgba(188, 188, 188, 0.523); 
+  
+
+}
+
+.linea_con_testo span {
+    font-size: 13px;
+    font-weight:500 ;
+    padding: 10px; 
+}
+
+button {
+    border-color: rgba(188, 188, 188, 0.523);
+    border-style: solid;
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    background-color: transparent;
+    color: white;
+    border-radius: 25px;
+    font-weight: bold;
+    height: 50px;
+    margin: 5px;
+    position: relative; 
+    padding: 10px;
+    font-weight: 800;
+    border-width: 2px;
+}
+
+button img {
+    width: 20px; 
+    height: 20px;
+    border-radius: 50%; 
+    position: absolute;
+    left: 15px; /* Sposta l'immagine a sinistra */
+}
+
+button span {
+    flex: 1; 
+    text-align: center;
+}
+ 
+
+.logo_princ{
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+button:hover{
+    cursor: pointer;
+    border-color: white;
+}
+
+button.avanti:hover{
+    background-color: #61d188;
+
+}
+
+.linea_sotto{
+    margin-top: 30px;
+}
+
+.hai_account{
+    justify-content: center;
+    font-size: 14px;
+    color: rgb(175, 175, 175);
+    margin-bottom: 0;
+}
+
+.accedi{
+    color: white;
+   text-decoration: underline;
+}
+
+.policy{
+    font-size: 11px;
+   justify-content: center;
+    color: rgb(175, 175, 175) ;
+    margin-top: 0;
+    padding-bottom: 30px;
+    display: flex;
+}
+
+.privacy, .terms{
+    text-decoration: underline;
+}
+
+span{
+    margin: 0;
+}
+
+.hai_account, .privacy:hover{
+    cursor: pointer;
+}
+
