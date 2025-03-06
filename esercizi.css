@@ -253,7 +253,6 @@ button:hover .icon {
     transform: translateX(0);
 }
 
-/* Responsive */
 @media (max-width: 1200px) {
     .navbar {
         padding: 15px 40px;
@@ -313,6 +312,7 @@ button:hover .icon {
         min-height: 320px;
         margin-top: 50px;
         padding: 10px;
+        overflow: hidden;
     }
 
     .flip-card-inner {
@@ -323,13 +323,14 @@ button:hover .icon {
     .flip-card-back {
         padding: 15px;
         font-size: 1rem;
-        white-space: normal; 
     }
 
     .content h1 {
-        font-size: 1.8rem; 
+        font-size: 2rem;
         line-height: 1.2;
-        word-wrap: break-word; 
+        word-wrap: break-word;
+        white-space: normal;
+        margin: 0;
     }
 
     .content p {
@@ -364,24 +365,6 @@ button:hover .icon {
     .flip-card {
         max-width: 90%;
         height: 320px;
-        margin-top: 50px;
-    }
-
-    .content h1 {
-        font-size: 1.6rem; 
-    }
-
-    .content p {
-        font-size: 0.8rem;
-    }
-
-    .image-container {
-        top: 10px;
-        gap: 5px;
-    }
-
-    .image-container a img {
-        width: 30px;
-        height: 30px;
+        margin-top:
     }
 }
