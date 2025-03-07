@@ -373,6 +373,7 @@ button:hover .icon {
     }
 
     .social-contact a img {
+        height: 41px;
         width: 41px;
         border-radius: 15px;
     }
