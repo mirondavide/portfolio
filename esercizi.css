@@ -372,6 +372,12 @@ button:hover .icon {
    
     }
 
+    .social-contact a img {
+        width: 41px;
+        border-radius: 15px;
+    }
+
+
     
 }
 
@@ -380,6 +386,12 @@ button:hover .icon {
         padding: 10px 15px;
     }
 
+
+    .social-contact a img {
+        width: 30px;
+    }
+
+    
     .logo {
         width: 70%;
         max-width: 120px;
