@@ -387,7 +387,13 @@ button:hover .icon {
         padding: 10px 15px;
     }
 
+ .social-contact a img {
+        height: 41px;
+        width: 41px;
+        border-radius: 15px;
+    }
 
+    
     .social-contact a img {
         width: 30px;
     }
