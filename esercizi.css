@@ -10,7 +10,7 @@ html, body {
     width: 100%;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 1));
+    background: black;
     color: white;
     display: flex;
     justify-content: center;
@@ -23,6 +23,7 @@ html, body {
 .navbar {
     width: 100%;
     padding: 20px 50px;
+    margin-top: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,14 +35,17 @@ html, body {
 }
 
 .logo {
-    width: 220px;
+    width: 100%;
+    max-width: 220px;
     margin-left: 30px;
 }
 
-.navbar ul li img {
-    width: 50px;
+.secondo li img{
+    width: 70px;
     border-radius: 15px;
 }
+
+
 
 .navbar ul li :nth-child(1) {
     margin-top: -10px;
@@ -64,7 +68,7 @@ html, body {
     transition: width 0.7s ease;
 }
 
-.navbar ul li:first-child:hover::after {
+.secondo :first-child:hover::after {
     width: 100%;
 }
 
@@ -77,12 +81,6 @@ html, body {
     margin: 0;
     padding: 0;
     list-style: none;
-}
-
-.navbar ul li {
-    margin: 0 20px;
-    position: relative;
-    font-size: 25px;
 }
 
 .navbar a {
@@ -253,7 +251,21 @@ button:hover .icon {
     transform: translateX(0);
 }
 
+
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    flex-wrap: wrap; 
+    align-items: center;
+    margin-top: 20px;
+}
+
 @media (max-width: 1200px) {
+    .logo {
+        margin-left: 0;
+    }
     .navbar {
         padding: 15px 40px;
     }
@@ -277,6 +289,9 @@ button:hover .icon {
 }
 
 @media (max-width: 900px) {
+    .logo {
+        margin-left: 0;
+    }
     .navbar {
         padding: 15px 30px;
     }
@@ -306,6 +321,11 @@ button:hover .icon {
 }
 
 @media (max-width: 600px) {
+    .logo {
+        margin-left: 0;
+        width: 60%;
+    }
+
     .flip-card {
         max-width: 90%;
         height: auto;
@@ -346,6 +366,13 @@ button:hover .icon {
         height: 45px;
         font-size: 14px;
     }
+
+    li .social-contact img{
+        padding: 20px;
+   
+    }
+
+    
 }
 
 @media (max-width: 400px) {
@@ -354,7 +381,9 @@ button:hover .icon {
     }
 
     .logo {
-        width: 90px;
+        width: 70%;
+        max-width: 120px;
+        margin-left: 0;
     }
 
     .navbar ul li {
@@ -365,6 +394,6 @@ button:hover .icon {
     .flip-card {
         max-width: 90%;
         height: 320px;
-        margin-top:
+        margin-top: 0;
     }
 }
