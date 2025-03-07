@@ -372,6 +372,11 @@ button:hover .icon {
    
     }
 
+
+    .secondo li:first-child{
+        margin-bottom: 15px;
+    }
+
     .social-contact a img {
         height: 41px;
         width: 41px;
